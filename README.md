@@ -29,6 +29,16 @@ pip install -r requirements.txt
 python main.py
 ```
 
+# Run the line drawing demo (default)
+```bash
+python main.py --demo line
+```
+
+# Run the circle drawing demo
+```bash
+python main.py --demo circle
+```
+
 ## Features
 
 - **3D Visualization**: Real-time rendering of the robot arm and environment
