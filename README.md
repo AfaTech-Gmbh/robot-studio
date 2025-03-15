@@ -77,12 +77,10 @@ sim.close()
 
 ```
 robot-studio/
-├── main.py              # Main script for running the simulation
+├── main.py                  # Main script for running the simulation
 ├── robot_arm_simulation.py  # Main simulation class
-├── assets/              # 3D models and textures
-│   └── kuka_iiwa/       # KUKA robot URDF files
-├── examples/            # Example scripts
-└── utils/               # Helper functions
+├── requirements.txt         # Project dependencies
+└── .gitignore               # Git ignore file
 ```
 
 ## Extending the Project
